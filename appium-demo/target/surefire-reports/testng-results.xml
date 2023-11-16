@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-25T19:05:45 BRT" name="Mobile Automation Suite" finished-at="2023-10-25T19:05:55 BRT" duration-ms="10236">
+    <groups>
+    </groups>
+    <test started-at="2023-10-25T19:05:45 BRT" name="Mobile Tests" finished-at="2023-10-25T19:05:55 BRT" duration-ms="10236">
+      <class name="tests.WdioDemoAppTests">
+        <test-method is-config="true" signature="beforeSuite(java.lang.String)[pri:0, instance:tests.WdioDemoAppTests@c33b74f]" started-at="2023-10-25T19:05:39 BRT" name="beforeSuite" finished-at="2023-10-25T19:05:45 BRT" duration-ms="5703" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://127.0.0.1:4723]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.WdioDemoAppTests@c33b74f]" started-at="2023-10-25T19:05:45 BRT" name="beforeClass" finished-at="2023-10-25T19:05:46 BRT" duration-ms="988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="bottomBarNavigationTest()[pri:0, instance:tests.WdioDemoAppTests@c33b74f]" started-at="2023-10-25T19:05:46 BRT" name="bottomBarNavigationTest" finished-at="2023-10-25T19:05:55 BRT" duration-ms="8927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bottomBarNavigationTest -->
+        <test-method signature="succesfulSignUpTest()[pri:0, instance:tests.WdioDemoAppTests@c33b74f]" started-at="2023-10-25T19:05:55 BRT" name="succesfulSignUpTest" finished-at="2023-10-25T19:05:55 BRT" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- succesfulSignUpTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:tests.WdioDemoAppTests@c33b74f]" started-at="2023-10-25T19:05:55 BRT" name="afterSuite" finished-at="2023-10-25T19:05:55 BRT" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- tests.WdioDemoAppTests -->
+    </test> <!-- Mobile Tests -->
+  </suite> <!-- Mobile Automation Suite -->
+</testng-results>

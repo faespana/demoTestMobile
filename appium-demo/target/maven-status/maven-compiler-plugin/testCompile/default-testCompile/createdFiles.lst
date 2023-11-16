@@ -1,0 +1,12 @@
+screens/bases/LayoutScreen.class
+screens/HomeScreen.class
+screens/parts/BottomMenuBar.class
+utils/MyAndroidDriver.class
+screens/bases/BaseScreen.class
+screens/LoginScreen.class
+screens/FormsScreen.class
+screens/SwipeScreen.class
+screens/WebviewScreen.class
+screens/DragScreen.class
+tests/WdioDemoAppTests.class
+tests/BaseAndroidTest.class

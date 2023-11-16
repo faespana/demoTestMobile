@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Mobile Automation Suite">
+    <!-- Parameters: to be used by testng -->
+    <parameter name="appiumServerUrl" value="http://127.0.0.1:4723" />
+    <!--
+    <parameter name="url" value="https://www.saucedemo.com" />
+    <parameter name="browser" value="chrome" />
+    <parameter name="username" value="standard_user" />
+    <parameter name="password" value="secret_sauce" />
+    <parameter name="firstName" value="Facu" />
+    <parameter name="lastName" value="Az" />
+    <parameter name="postalCode" value="3105" />
+    -->
+    <!-- Tests -->
+    <test name="Mobile Tests">
+        <classes>
+            <class name="tests.WdioDemoAppTests" />
+        </classes>
+    </test>
+</suite>
